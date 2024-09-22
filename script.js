@@ -21,5 +21,12 @@ function addTask(){
     
     taskList.appendChild(newEl);
     
+    // after adding the value in the list remove the text from the textbar 
+    taskInput.value = '';
     
+    // solution for empty task 
+    if(!taskInput.value.trim()){
+        error.textContent = ("Add Some Task To Do!");
+        return;
+    }
 }
