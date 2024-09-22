@@ -80,7 +80,7 @@ li:hover {
     color: grey;
 }
 .remove-btn {
-    background-color: #ff6b6b;
+    background-color: #ff4e4e;
     border: none;
     padding: 5px 10px;
     color: white;
@@ -89,5 +89,5 @@ li:hover {
     font-size: 12px;
 }
 .remove-btn:hover {
-    background-color: #d9534f;
+    background-color: #ff4e4e;
 }
