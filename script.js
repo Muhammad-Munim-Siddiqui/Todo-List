@@ -8,5 +8,13 @@ function addTask(){
     let newEl = document.createElement('li');
     newEl.textContent = taskInput.value;
     
+    // create   a new remove button
+    let removeButton = document.createElement('button');
+    removeButton.textContent = 'Remove';
+    removeButton.className = 'remove-btn';
+    removeButton.onclick = function (){
+        taskList.removeChild(newEl);
+    };
+    
     
 }
