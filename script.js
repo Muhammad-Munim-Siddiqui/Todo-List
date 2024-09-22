@@ -16,5 +16,10 @@ function addTask(){
         taskList.removeChild(newEl);
     };
     
+    // Append the remove button to the list item
+    newEl.appendChild(removeButton);
+    
+    taskList.appendChild(newEl);
+    
     
 }
