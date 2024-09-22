@@ -91,3 +91,6 @@ li:hover {
 .remove-btn:hover {
     background-color: #ff4e4e;
 }
+#error{
+    color: red;
+}

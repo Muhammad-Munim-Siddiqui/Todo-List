@@ -9,9 +9,10 @@
 <body>
     <div class="todo-container">
         <h1>TODO LIST</h1>
+        <h3 id="error"></h3>
         <input type="text" id="taskInput" placeholder="Add ToDo's">
-        <ul class="task-list"></ul>
-        <button>Add Todo</button>
+        <button onclick="addTask()">Add Todo</button>
+        <ul id="task-list"></ul>
     </div>
     <script src="script.js">
 
