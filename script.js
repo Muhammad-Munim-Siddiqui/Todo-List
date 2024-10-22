@@ -3,6 +3,11 @@ function addTask(){
     let taskList = document.getElementById('task-list');
     let error = document.getElementById('error');
     
+    // solution for empty task 
+    if(!taskInput.value.trim()){
+        error.textContent = ("Add Some Task To Do!");
+        return;
+    }
     error.textContent = "";
     // create a new li
     let newEl = document.createElement('li');
@@ -24,9 +29,4 @@ function addTask(){
     // after adding the value in the list remove the text from the textbar 
     taskInput.value = '';
     
-    // solution for empty task 
-    if(!taskInput.value.trim()){
-        error.textContent = ("Add Some Task To Do!");
-        return;
-    }
 }

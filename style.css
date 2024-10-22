@@ -58,7 +58,7 @@ ul {
     max-height: 200px;
     /* Limit the height of the task list */
     overflow-y: auto;
-    /* Enable vertical scrolling */
+    /* Enable vertical scrolling  */
     margin-bottom: 10px;
 }
 li {
